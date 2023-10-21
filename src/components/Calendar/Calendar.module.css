@@ -1,3 +1,57 @@
-table {
-  border: 1px solid #000;
+.calendarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  align-items: center;
+  width: 1128px;
+}
+
+.navigation {
+  display: flex;
+  gap: 8px;
+}
+
+.displayDate {
+  align-self: flex-end;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.calendar {
+  border: 1px solid #bfbfbf;
+  border-collapse: collapse;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #88c3c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #88c3c9;
+}
+
+.headerDay {
+  background-color: #e9f5f6;
+  color: #509698;
+  padding: 16px;
+}
+
+.header {
+  border: 1px solid #dedede;
 }

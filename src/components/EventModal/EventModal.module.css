@@ -1,0 +1,61 @@
+.eventModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  max-width: 80%;
+}
+
+.eventModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventModalContent {
+  text-align: center;
+}
+
+.eventModalHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.eventModal span {
+  display: block;
+  margin: 10px 0;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #88c3c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #88c3c9;
+}
+
+.eventSubName {
+  font-weight: 700;
+}
